@@ -1,0 +1,27 @@
+{
+  "name": "@laphilosophia/in-memory-cache",
+  "version": "1.0.0",
+  "description": "Simple node.js in memory cache utility",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --target=node20 --outfile=index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20.x"
+  },
+  "keywords": [
+    "cache",
+    "memory-cache",
+    "memory"
+  ],
+  "author": "Erdem Arslan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "esbuild": "0.20.0"
+  }
+}
