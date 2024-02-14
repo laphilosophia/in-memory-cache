@@ -1,6 +1,6 @@
 {
   "name": "@laphilosophia/in-memory-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple node.js in memory cache utility",
   "main": "index.js",
   "repository": "https://github.com/laphilosophia/in-memory-cache",
