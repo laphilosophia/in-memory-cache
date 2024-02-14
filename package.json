@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "Simple node.js in memory cache utility",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "repository": "https://github.com/laphilosophia/in-memory-cache",
   "scripts": {
     "build": "esbuild index.ts --bundle --platform=node --target=node20 --outfile=index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +18,9 @@
   ],
   "author": "Erdem Arslan",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@types/node": "^20.11.17",
     "esbuild": "0.20.0"
