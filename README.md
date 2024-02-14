@@ -1,6 +1,6 @@
 # in-memory-cache
 
-> Node's event emitter for all engines.
+> Simple node.js in memory cache utility
 
 This implements the Node.js in-memory-cache module for environments that do not have it, like browsers.
 
