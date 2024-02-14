@@ -3,13 +3,17 @@
   "version": "1.0.2",
   "description": "Simple node.js in memory cache utility",
   "main": "index.js",
-  "repository": "https://github.com/laphilosophia/in-memory-cache",
+  "repository": {
+    "type": "https://github.com/laphilosophia/in-memory-cache",
+    "url": "git+https://github.com/laphilosophia/in-memory-cache.git"
+  },
   "scripts": {
     "build": "esbuild index.ts --bundle --platform=node --target=node20 --outfile=index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=20.x"
+    "node": ">=20",
+    "npm": ">=10"
   },
   "keywords": [
     "cache",
