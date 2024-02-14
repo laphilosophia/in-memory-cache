@@ -22,9 +22,6 @@
   ],
   "author": "Erdem Arslan",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "@types/node": "^20.11.17",
     "esbuild": "0.20.0"
