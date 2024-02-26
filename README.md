@@ -1,10 +1,6 @@
 # in-memory-cache
 
-> Simple node.js in memory cache utility
-
-This implements the Node.js in-memory-cache module for environments that do not have it, like browsers.
-
-> `in-memory-cache` currently matches the **Node.js 20.x API.
+> Simple node.js in memory cache utility. `in-memory-cache` currently matches the **Node.js 20.x API.
 
 ## Install
 
